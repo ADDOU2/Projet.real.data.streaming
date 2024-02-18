@@ -121,10 +121,10 @@ Je fais l'ajout des fichiers en enlevant les tgz :
 
 Ensuite :
 
-  git commit -m "veuillez mettre votre message"
+    git commit -m "veuillez mettre votre message"
 
-Et enfin :
+Et enfin pour finir :
 
-   git push
+    git push
 
 
