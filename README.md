@@ -109,22 +109,22 @@ Et dans la deuxième :
 
     python spark.py
 
-    Pour finir si on veut vérifier que les données sont bien envoyer au topic velib-projet-final-data, on peut lancer le code consumer.py dans une dernière fenêtre de terminale avec :
+Pour finir si on veut vérifier que les données sont bien envoyer au topic velib-projet-final-data, on peut lancer le code consumer.py dans une dernière fenêtre de terminale avec :
 
     python consumer.py
 
 ## Pour enregistrer
 
-je fais l'ajout des fichiers en enlevant les tgz
+Je fais l'ajout des fichiers en enlevant les tgz :
 
- git add
+    git add
 
-Ensuite:
+Ensuite :
 
-git commit -m "veuillez mettre votre message"
+  git commit -m "veuillez mettre votre message"
 
-et enfin:
+Et enfin :
 
-git push
+   git push
 
 
