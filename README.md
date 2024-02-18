@@ -100,7 +100,6 @@ et
 Avant de lancer les codes python, il faut installer la bibliothèque kafka-python avec :
 
     pip install kafka-python
-Et aussi vérifier que les chemins des vers SPARK_HOME, JAVA_HOME et PYSPARK_SUBMIT_ARGS présent dans le fichier spark.py sont correctes.
 
 On peut enfin lancer les codes dans l'ordre suivant : kafka_project.py et ensuite spark.py
 Pour ce faire, on peut ouvrir deux nouvelles fenêtre de terminale et entrer dans la première :
@@ -110,6 +109,16 @@ Et dans la deuxième :
 
     python spark.py
 
+## Pour enregistrer
+
+je fais l'ajout des fichiers en enlevant les tgz
+ git add
+
+Ensuite:
+git commit -m "veuillez mettre votre message"
+
+et enfin:
+git push
 
 Pour finir si on veut vérifier que les données sont bien envoyer au topic velib-projet-final-data, on peut lancer le code consumer.py dans une dernière fenêtre de terminale avec :
 
